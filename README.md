@@ -68,6 +68,16 @@ LLM-Practical-Portfolio/
 
 AI tools may be used for permitted learning support, technical guidance, and debugging assistance in accordance with the module assessment guidelines. All AI assistance will be declared as required by the assessment brief.
 
-## Author
+## Lab 02 – AI in Everyday Challenges
 
-Data Science Undergraduate Student
+**Group 4: The Dehydrated Student**
+
+This project focuses on developing an innovative product
+using Large Language Models (LLMs) to encourage students
+to maintain better hydration habits.
+
+### Project Documentation
+
+- [Lab 02 Documentation](Lab-02-LLM-Everyday-Life/README.md)
+- [Group Activity](Lab-02-LLM-Everyday-Life/group-activity/README.md)
+- [Product Proposal (PDF)](Lab-02-LLM-Everyday-Life/group-activity/Group4_Product_Proposal.pdf)
