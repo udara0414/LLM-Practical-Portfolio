@@ -19,3 +19,9 @@ Product concept, key features, target users and visual prototype will be documen
 - Target users
 - Visual prototype/mock-up
 - Final presentation
+
+## Project Proposal
+
+View the Group 4 product proposal:
+
+[Download Group 4 Product Proposal (PDF)](Group4_Product_Proposal.pdf)
