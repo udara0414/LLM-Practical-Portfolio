@@ -5,7 +5,7 @@ from model import TinyTransformer, vocab_size, block_size
 
 # Load training data and vocabulary
 checkpoint = torch.load(
-    "training_data.pt",
+    "notebooks/training_data.pt",
     map_location="cpu",
     weights_only=False
 )
@@ -18,7 +18,7 @@ model = TinyTransformer()
 
 model.load_state_dict(
     torch.load(
-        "trained_model.pth",
+        "notebooks/trained_model.pth",
         map_location="cpu",
         weights_only=True
     )
@@ -94,3 +94,4 @@ if __name__ == "__main__":
         server_port=7860,
         share=True
     )
+
