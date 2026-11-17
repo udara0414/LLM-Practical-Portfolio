@@ -81,3 +81,18 @@ to maintain better hydration habits.
 - [Lab 02 Documentation](Lab-02-LLM-Everyday-Life/README.md)
 - [Group Activity](Lab-02-LLM-Everyday-Life/group-activity/README.md)
 - [Product Proposal (PDF)](Lab-02-LLM-Everyday-Life/group-activity/Group4_Product_Proposal.pdf)
+
+- ## Lab 03 – Tiny Transformer Language Model
+
+Developed a character-level Transformer language model using PyTorch and the TinyStories dataset.
+
+**Key Areas:**
+- Transformer architecture and self-attention
+- Text preprocessing and tokenization
+- Model training and evaluation
+- Text generation
+- Interactive Gradio interface
+
+**Technologies:** Python, PyTorch, Hugging Face Datasets, NumPy, Pandas, Matplotlib, Gradio
+
+[View Lab 03](./Lab-03-Tiny-Transformer/)
