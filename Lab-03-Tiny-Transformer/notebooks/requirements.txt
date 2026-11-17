@@ -1,0 +1,7 @@
+torch
+datasets
+numpy
+pandas
+matplotlib
+tqdm
+gradio
