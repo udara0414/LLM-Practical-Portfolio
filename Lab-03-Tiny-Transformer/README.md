@@ -33,6 +33,36 @@ The project includes:
 - Matplotlib
 - Gradio
 
+  
+## Installation and Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/udara0414/LLM-Practical-Portfolio.git
+```
+
+### 2. Navigate to the Project Folder
+
+```bash
+cd LLM-Practical-Portfolio/Lab-03-Tiny-Transformer
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Application
+
+```bash
+python app.py
+```
+
+Open the local URL displayed in the terminal to access the Gradio interface.
+
+
 ## Model Configuration
 | Parameter | Value |
 |---|---:|
