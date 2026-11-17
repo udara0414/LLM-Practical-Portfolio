@@ -51,13 +51,13 @@ cd LLM-Practical-Portfolio/Lab-03-Tiny-Transformer
 ### 3. Install Dependencies
 
 ```bash
-pip install -r requirements.txt
+pip install -r notebooks/requirements.txt
 ```
 
 ### 4. Run the Application
 
 ```bash
-python app.py
+python notebooks/app.py
 ```
 
 Open the local URL displayed in the terminal to access the Gradio interface.
