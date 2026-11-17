@@ -56,7 +56,7 @@ See the `results/` folder for the training loss graph and training history.
 
 ## Interactive Demo
 A Gradio interface was developed to allow users to enter a starting prompt and generate text using the trained Transformer model.
-
+![Gradio Interface Demo](./results/gradio-demo.png)
 ## Project Structure
 ```text
 Lab-03-Tiny-Transformer/
