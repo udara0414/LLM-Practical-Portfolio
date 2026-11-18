@@ -1,5 +1,5 @@
 
-# Lab 02 – AI in Everyday Challenges
+# Lab 02 – Everyday Life
 
 ## Project: Sipwise – Smart Hydration Support for University Students
 
