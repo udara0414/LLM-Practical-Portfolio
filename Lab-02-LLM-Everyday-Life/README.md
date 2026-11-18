@@ -13,7 +13,7 @@
 
 This practical activity explores how Large Language Models (LLMs) can be used as product-development partners to identify everyday challenges and develop AI-assisted product concepts.
 
-Our group selected student dehydration as the main problem, focusing on university students who often forget to drink water because of busy academic schedules.
+Our group was assigned the challenge of "The Dehydrated Student". We focused on university students who often forget to drink water because of their busy academic schedules.
 
 To address this challenge, we developed **Sipwise**, a proposed AI-assisted hydration support product that combines a timetable-aware mobile application with an ESP32-powered smart bottle cap.
 
@@ -49,18 +49,21 @@ The proposed smart cap is designed to attach to a regular water bottle.
 
 Its planned capabilities include:
 
-- Sensor-based sip counting.
+- An open sensor to detect each time the bottle is opened, with each opening counted as a sip in the concept.
 - ESP32-based hardware control.
-- Bluetooth Low Energy (BLE) communication.
-- Blue and amber LED indicators.
-- Left-behind bottle alerts.
+- Bluetooth Low Energy (BLE) communication as the primary connection to the mobile application.
+- Wi-Fi as a backup option for synchronising data when the student's phone is not nearby.
+- Blue and amber LED indicators to provide visual hydration progress feedback.
+- A left-behind bottle alert using phone proximity information.
+
+The sensor detects bottle openings rather than measuring the exact volume of water consumed.
 
 ### 3.3 LLM Integration
 
 LLMs are proposed for three main functionalities:
 
 1. **Timetable Interpretation:** Extracting timetable information from images or PDFs to help generate a personalized hydration plan.
-2. **Personalized Notifications:** Generating contextual reminders using timetable information and hydration progress.
+2. **Personalized Notifications:** Generating contextual reminders using information such as the next class, hydration progress, and friends' hydration streaks.
 3. **Natural-Language Drink Logging:** Interpreting natural-language drink entries and estimating drink quantities for the hydration log.
 
 ## 4. How We Used LLMs
@@ -94,11 +97,10 @@ A visual mobile application mock-up was created using Figma to communicate the p
 
 The design illustrates the main application screens and product features, including hydration tracking, timetable-aware planning, and personalized reminders.
 
-**Figma Prototype:** [Sipwise – Hydration Mockup](ADD_FIGMA_LINK_HERE)
+The Figma design represents a visual prototype of the proposed product. It demonstrates the intended user interface and user experience rather than a fully implemented mobile application or working hardware system.
 
 ## 7. Repository Structure
 
-```text
 Lab-02-LLM-Everyday-Life/
 │
 ├── README.md
@@ -112,7 +114,6 @@ Lab-02-LLM-Everyday-Life/
 │
 └── screenshots/
     └── README.md
-```
 
 ## 8. Documentation
 
