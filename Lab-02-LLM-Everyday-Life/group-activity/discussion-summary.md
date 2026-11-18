@@ -4,7 +4,7 @@
 
 As part of Lab Sheet 2 – AI in Everyday Challenges, Group 4 explored how Large Language Models (LLMs) could be used as product-development partners to address an everyday problem.
 
-Our group selected the challenge of student dehydration, focusing on university students who often forget to drink water because of their busy academic schedules.
+Our group was assigned the challenge of "The Dehydrated Student". The group focused on university students who often forget to drink water because of their busy academic schedules.
 
 Through group discussions and the use of an LLM, we developed a product concept called **Sipwise**.
 
@@ -46,9 +46,15 @@ We discussed allowing students to upload their academic timetables as images or 
 
 ### 4.2 Smart Bottle Cap
 
-The group explored the possibility of using an ESP32 microcontroller, sensors, Bluetooth connectivity, and LED indicators to provide hydration progress feedback.
+The group explored the possibility of using an ESP32 microcontroller, an open sensor, Bluetooth Low Energy (BLE), and LED indicators to support hydration tracking.
 
-The proposed blue and amber LED indicators would help students understand whether they are following their planned hydration schedule.
+The proposed open sensor detects each time the bottle is opened, with each opening counted as a sip in the concept.
+
+The smart cap uses Bluetooth Low Energy as its primary connection to communicate sip counts and proximity information to the mobile application. Wi-Fi is considered a backup option for synchronising data when the student's phone is not nearby.
+
+The proposed blue and amber LED indicators provide visual feedback about the student's hydration progress. This allows the smart cap to display alerts without interrupting students during lectures.
+
+The sensor detects bottle openings rather than measuring the exact volume of water consumed.
 
 ### 4.3 Personalized Notifications
 
@@ -81,6 +87,14 @@ The group explored how an LLM could assist with:
 5. **Concept Refinement:** Improving the overall product idea and organizing the proposed features into a clear solution.
 
 The LLM supported the development process, while the group considered and selected the ideas relevant to the identified problem.
+
+The group also identified three main LLM-based functions for the proposed product:
+
+- **Timetable Interpretation:** Understanding timetable information uploaded as images or PDFs and identifying class sessions and breaks.
+- **Personalized Notification Generation:** Generating reminders using information such as the next class, hydration progress, and friends' streaks.
+- **Natural-Language Drink Logging:** Interpreting ordinary text entries, such as "I had a Milo at the canteen", and estimating the drink amount for the hydration log.
+
+These functions were identified as proposed applications of LLM technology rather than implemented features.
 
 ## 6. Key Decisions Made by the Group
 
