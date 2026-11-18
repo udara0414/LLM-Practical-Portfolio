@@ -72,18 +72,29 @@ The proposed interface includes:
 - Quick logging amounts such as 150 ml, 250 ml, and 500 ml.
 - Adjustments to the suggested goal based on contextual factors, such as hot weather.
 
-### 5.3 ESP32-Powered Smart Bottle Cap
+### 5.3 Smart Bottle Cap
 
-Sipwise proposes a smart cap that can be attached to a regular water bottle.
+Sipwise includes a proposed smart bottle cap designed to support hydration tracking.
 
-The cap is designed around an ESP32 microcontroller and a sensor-based sip-counting mechanism. It communicates with the mobile application through Bluetooth Low Energy (BLE).
+The smart cap uses the following components:
 
-The proposed visual feedback system includes:
+- **Open Sensor:** Detects each time the bottle is opened. Each opening is counted as a sip in the prototype concept.
+- **ESP32:** Processes the sensor information and communicates with the mobile application.
+- **LED Ring:** Provides visual feedback to the student.
+- **Rechargeable Battery:** Supplies power to the smart cap.
 
-- **Blue LED:** Indicates that the student is on track with the hydration plan.
-- **Amber LED:** Indicates that the student may be falling behind the planned hydration progress.
+**Connectivity:**
 
-This provides a simple visual reminder without requiring students to check their phones during lectures.
+- Bluetooth Low Energy (BLE) is the primary connection used to send sip counts and proximity information to the mobile application.
+- Wi-Fi is considered a backup option for synchronising data when the student's phone is not nearby.
+
+**Visual Feedback:**
+
+- A blue light pulse indicates that the student is on track with the hydration plan.
+- An amber light indicates that the student is falling behind the planned hydration target.
+- If the student is in a lecture, the smart cap provides a visual alert instead of sending a phone notification.
+
+The sensor detects bottle openings rather than directly measuring the exact volume of water consumed. Therefore, the sip count is an estimated tracking method.
 
 ### 5.4 Context-Aware Notifications
 
