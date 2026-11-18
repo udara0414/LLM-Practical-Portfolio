@@ -96,7 +96,25 @@ The smart cap uses the following components:
 
 The sensor detects bottle openings rather than directly measuring the exact volume of water consumed. Therefore, the sip count is an estimated tracking method.
 
-### 5.4 Context-Aware Notifications
+### 5.4 How the Sipwise System Works
+
+Sipwise combines the student's class timetable, smart bottle cap data, and daily weather conditions to provide personalised hydration support.
+
+The proposed system follows this process:
+
+1. **Timetable Input:** The student uploads a timetable as an image or PDF. The LLM identifies class sessions and available breaks.
+2. **Hydration Planning:** The application creates a hydration schedule based on the student's timetable.
+3. **Sip Tracking:** The smart cap detects bottle openings and sends the sip count to the mobile application through Bluetooth Low Energy.
+4. **Progress Monitoring:** The application compares the recorded sip count with the planned hydration schedule.
+5. **Context-Aware Notifications:**
+   - If the student is behind the hydration plan during a lecture, the smart cap displays an amber light.
+   - If the student is behind the plan but not attending a lecture, the application can generate an AI-assisted reminder for the next suitable break.
+   - If the student is on track, the system remains quiet.
+6. **Progress Updates:** When a drink is logged, the application updates the student's progress and streak.
+
+The system aims to provide reminders at appropriate times without unnecessarily interrupting lectures.
+
+### 5.5 Context-Aware Notifications
 
 Unlike traditional reminder applications, Sipwise is designed to consider the student's timetable and current hydration progress before sending notifications.
 
@@ -104,13 +122,13 @@ For example, if a student is falling behind during a lecture, the smart cap can 
 
 This approach aims to reduce unnecessary interruptions during academic activities.
 
-### 5.5 Left-Behind Bottle Alert
+### 5.6 Left-Behind Bottle Alert
 
 The proposed application uses Bluetooth signal strength to help identify when a student may have moved away from their connected water bottle.
 
 If the connection indicates that the bottle may have been left behind, the application can provide an alert to remind the student to collect it.
 
-### 5.6 Campus Refill Points and Social Features
+### 5.7 Campus Refill Points and Social Features
 
 The proposed application also includes additional features to support hydration habits within the university environment.
 
