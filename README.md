@@ -149,7 +149,7 @@ LLM-Practical-Portfolio/
 │   ├── notebooks/
 │   └── screenshots/
 │
-├── Lab-05-AI-Agents/
+├── Lab-06-AI-Agents/
 │   ├── README.md
 │   ├── notebooks/
 │   └── screenshots/
