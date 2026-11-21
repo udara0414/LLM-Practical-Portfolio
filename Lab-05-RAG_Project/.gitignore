@@ -1,0 +1,9 @@
+venv/
+rag_env/
+.env
+data/
+vectorstore/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
